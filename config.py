@@ -10,8 +10,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Eljur API
-API_URL = "https://edu.gounn.ru/api/"
 TOKEN = os.getenv("token")
+LOGIN = os.getenv("login")
+PASSWORD =os.getenv("password")
+DEVKEY = os.getenv("devkey")
+VENDOR = os.getenv("vendor")
+API_URL = "https://edu.gounn.ru/api/"
+
 
 # PostgreSQL
 PG_USER = os.getenv("PG_USER")
